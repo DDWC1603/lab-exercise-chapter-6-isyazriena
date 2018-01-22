@@ -18,16 +18,17 @@ int main()
 	
 	//make an if else that check the password(strPswd)
 	//(string compare function (strPswd,"Check")) 
-		if (strPswd2!=strPswd)
+		if (strPswd2[80]!=strPswd[80])
 		{
-		cout<<"invalid password "<<endl;
+		cout<<"Logged in "<<endl;
 		}
 	 	else
 	 	{
-		cout<<"Logged in "<<endl;
+		cout<<"invalid password "<<endl;
 		}
 		
 		strcmp (strPswd, "Check");
+		cout << strcmp << endl;
 	
 
 	return 0;
