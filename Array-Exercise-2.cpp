@@ -10,6 +10,7 @@ int mark[5]={19,10,8,17,9};
 int main()
 {
 	int value;
+	int x;
 	
 	//insert different value to the third element
 	//tukar third element tu dengan value lain
@@ -25,6 +26,7 @@ int main()
 	cout << "The first element in array is: " << mark[0] << endl;
 
 	//print the xth element of the array
-	cout << "The xth element of array is: " << mark[4] << endl;
+	cin >> x;
+	cout << "The xth element of array is: " << mark[x] << endl;
 
 }
