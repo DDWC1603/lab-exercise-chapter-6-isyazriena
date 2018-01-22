@@ -5,23 +5,29 @@
 
 #include <iostream>
 #include <cstring>
+using namespace std;
 
 int main()
 {
-	char strPswd[80];
+	char strPswd[80]="passwordsendiri";
+	char strPswd2[80];
 
 	cout<<"Enter password: ";
-	cin >> strPswd[80] >> endl;
+	cin >> strPswd2[80];
 	//get the strPswd
 	
 	//make an if else that check the password(strPswd)
 	//(string compare function (strPswd,"Check")) 
-		if ()
+		if (strPswd2!=strPswd)
+		{
 		cout<<"invalid password "<<endl;
-	
-	 
+		}
+	 	else
+	 	{
 		cout<<"Logged in "<<endl;
-
+		}
+		
+		strcmp (strPswd, "Check");
 	
 
 	return 0;
